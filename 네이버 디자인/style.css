@@ -142,7 +142,8 @@
 
 .loginbox{
     display: flex;
-    justify-content: center;
+    
+    flex-direction: column;justify-content: center;
 }
 .loginbox b{
     padding-top: 15px;
