@@ -9,6 +9,10 @@
     justify-content: center;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
 .main{
     width: 70%;
     height: 1000px;
@@ -91,7 +95,7 @@
 
 .news{
     width: 100%;
-    height: 300px;
+    height: 400px;
     margin-top: 20px;
     border: 1px rgb(189, 189, 189) solid;
     border-radius: 10px;
@@ -119,18 +123,10 @@
     border: 1px rgb(189, 189, 189) solid;
     border-radius: 10px;
 }
-.newsimage{
-    display: flex;
-    justify-content: center;
-    
-}
-.newsimage img{
-    width: 90%;
-    height:70%;
-}
 
 .newstext{
-    margin: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
     color: gray;
 }
 
@@ -141,11 +137,72 @@
 }
 
 .loginbox{
-    display: flex;
-    
-    flex-direction: column;justify-content: center;
+    text-align: center;
 }
 .loginbox b{
     padding-top: 15px;
     font-size: 15px;
+}
+
+.here{
+    width: 100%;
+    height: 270px;
+    display: flex;
+}
+
+.ln{
+    width: 50%;
+}
+
+.rn{
+    width: 50%;
+}
+
+.here img{
+    width: 180px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.more{
+    margin-top: 15px;
+    display: flex;
+}
+
+.newsintext{
+    margin-left: 5px;
+}
+
+.newstitle{
+    display: flex;
+    justify-content: space-around;
+}
+
+.newstitle h4{
+    margin-right: 20px;
+    margin-top: 3px;
+}
+
+.newsicon{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.newstitle button{
+    background-color: white;
+    border: 1px solid rgb(0, 153, 255);
+    border-radius: 30px;
+    width: 60px;
+    color: rgb(0, 153, 255);
+}
+.newstitle button:hover{
+    background-color: rgba(0, 179, 255, 0.243);
+}
+
+
+
+.newstitle span{
+    font-size: 20px;
 }
