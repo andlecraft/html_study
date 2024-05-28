@@ -1,0 +1,58 @@
+[
+    {
+        "category" : " ",
+        "product_name" : "미개봉 마우스",
+        "price" : 10000,
+        "like" : 2,
+        "create_date" : "2024-04-23"
+    },
+    {
+        "category" : " ",
+        "product_name" : "6개월 사용한 갈축 키보드",
+        "price" : 5000,
+        "like" : 2,
+        "create_date" : "2024-04-23"
+    },
+    {
+        "category" : " ",
+        "product_name" : "생활기스 조금 있는 모니터",
+        "price" : 100000,
+        "like" : 2,
+        "create_date" : "2024-04-23"
+    },
+    {
+        "category" : " ",
+        "product_name" : "1년 사용한 애플워치",
+        "price" : 235000,
+        "like" : 2,
+        "create_date" : "2024-04-23"
+    },
+    {
+        "category" : " ",
+        "product_name" : "17년된 삼성 TV",
+        "price" : 100000,
+        "like" : 2,
+        "create_date" : "2024-04-23"
+    },
+    {
+        "category" : " ",
+        "product_name" : "라면 3박스",
+        "price" : 5000,
+        "like" : 2,
+        "create_date" : "2024-04-23"
+    },
+    {
+        "category" : " ",
+        "product_name" : "물티슈 2개 무료나눔",
+        "price" : "free",
+        "like" : 2,
+        "create_date" : "2024-04-23"
+    },
+    {
+        "category" : " ",
+        "product_name" : "치킨 기프티콘",
+        "price" : 12000,
+        "like" : 2,
+        "create_date" : "2024-04-23"
+    }
+]
