@@ -1,6 +1,11 @@
 class Shop{
-    
+    constructor(data){
+        this.data = data
+        console.log(data)
+    }
+
+     
 }
-$.getJSON('/music_data.json', json => {
+$.getJSON('/data.json', json => {
     new Shop(json.data)
 })
