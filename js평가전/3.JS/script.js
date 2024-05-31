@@ -5,9 +5,6 @@ class Shop{
         this.objectSortData()
         this.drawObjectList()
 
-        // console.log(json)
-
-
     }
 
     objectSortData(){
@@ -28,16 +25,15 @@ class Shop{
                 <p class="price">💵${json.price}</p>
                 <div class="bottom">
                     <p class="date">${json.create_date}</p>
-                <p class="like">${json.like}♡</p>
+                <button class="infobutton">자세히보기</button>
                 </div>
             </div>
         </div>
             `)
         })
     }
-
-     
 }
+
 $.getJSON('/3.JS/data.json', json => {
     new Shop(json)
 })
