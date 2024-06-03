@@ -126,7 +126,7 @@ input:focus
     display: flex;
     justify-content: space-between;
 }
-
+/* 
 .infobutton{
     width: 100px;
     background-color: white;
@@ -135,4 +135,50 @@ input:focus
 .infobutton:hover{
     cursor: pointer;
     background-color: rgb(255, 132, 0);
+} */
+
+#layer_popup {
+    display: none;
+}
+
+#layer_popup+label {
+    display: inline-block;
+    padding: 7px 14px;
+    background: rgb(255, 132, 0);
+    color: #fff;
+}
+
+#layer_bg {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#popup {
+    position: absolute;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 600px;
+    height: 400px;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+}
+
+#popup>h2 {
+    margin-bottom: 25px;
+}
+
+#popup>h2>label {
+    float: right;
+}
+
+#layer_popup:checked+label+#layer_bg {
+
+    display: block;
 }

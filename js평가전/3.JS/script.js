@@ -25,7 +25,18 @@ class Shop{
                 <p class="price">💵${json.price}</p>
                 <div class="bottom">
                     <p class="date">${json.create_date}</p>
-                <button class="infobutton">자세히보기</button>
+                    <input type="checkbox" id="layer_popup" style="">
+                    <label for="layer_popup">
+                        자세히보기
+                    </label>
+                     <div id="layer_bg">
+                        <div id="popup"> 
+                        ${json.like}
+                            <h2>
+                                <label for="layer_popup">X</label>
+                            </h2>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
