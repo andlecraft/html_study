@@ -2,14 +2,18 @@ class Categorys {
     constructor(json) {
         this.json = json
         this.categoryList = ['ALL']
+        this.type = "all"
         this.categorySortData()
         this.drawCategoryList()
         this.addEvent()
+
     }
 
     addEvent(){
         $('#select').change(e => {
-            console.log(e.target.value);
+            // console.log(e.target.value);
+            this.type = e.target.value
+            this.sortData()
         });
     }
 
@@ -22,6 +26,17 @@ class Categorys {
                 this.categoryList.push(data.category)
             }
         })
+    }
+
+    sortData() {
+        let printData = ""
+        if (this.type == "all") {
+            printData = this.json
+        } else {
+            printData = this.json.filter(e => e.category == this.categoryList)
+        }
+
+        this.drawList(printData)
     }
 
     // 1.클릭한 셀렉트 바의 옵션의 값을 가지고 오기

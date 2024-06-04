@@ -9,11 +9,11 @@ class Objects{
     objectSortData(){
         this.json.forEach(json=>{
             this.objectList.push(json)
-            console.log(json)
+            // console.log(json)
         })
     }
 
-    drawObjectList(){
+    drawObjectList(json){
         this.objectList.forEach(json=>{
             $('.objects').append(`
             <div class="object">
