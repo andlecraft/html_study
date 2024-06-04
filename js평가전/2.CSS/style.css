@@ -145,6 +145,7 @@ input:focus
     display: inline-block;
     padding: 7px 14px;
     background: rgb(255, 132, 0);
+    cursor: pointer;
     color: #fff;
 }
 

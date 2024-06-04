@@ -1,10 +1,9 @@
-class Shop{
+class Objects{
     constructor(json){
         this.json = json
         this.objectList=[]
         this.objectSortData()
         this.drawObjectList()
-
     }
 
     objectSortData(){
@@ -13,6 +12,7 @@ class Shop{
             console.log(json)
         })
     }
+
     drawObjectList(){
         this.objectList.forEach(json=>{
             $('.objects').append(`
@@ -43,8 +43,9 @@ class Shop{
             `)
         })
     }
+
 }
 
 $.getJSON('/3.JS/data.json', json => {
-    new Shop(json)
+    new Objects(json)
 })
