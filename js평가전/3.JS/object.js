@@ -13,7 +13,7 @@ class Objects{
         })
     }
 
-    drawObjectList(json){
+    drawObjectList(){
         this.objectList.forEach(json=>{
             $('.objects').append(`
             <div class="object">
